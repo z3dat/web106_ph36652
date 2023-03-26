@@ -1,0 +1,33 @@
+@media screen and (min-width:48em) {
+    .footer .menufooter .social{
+        
+        gap: 100px;
+    }
+    .main .product .product-it .content >button{
+        font-size: 20px;
+       
+    }
+    .footer .menufooter .social >button{
+        font-size: 20px;
+    }
+    .product .product-it{
+  
+        background-color: #f1f1f1;
+        width: calc(100%/3);
+        height: 100%;
+        gap:20px;
+        border: solid 20px  rgb(254, 245, 254);
+      
+      }
+}
+@media screen and (min-width:75em) {
+    .product .product-it{
+  
+        background-color: #f1f1f1;
+        width: calc(100%/3);
+        height: 100%;
+        gap:20px;
+        border: solid 20px  rgb(254, 245, 254);
+      
+      }
+}
