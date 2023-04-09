@@ -1,0 +1,9 @@
+@media screen and (min-width:48em) {
+   
+}
+@media screen and (max-width:1200px) {
+    
+.main{
+    display: flex;
+}
+}

@@ -1,15 +1,18 @@
 @media screen and (min-width:48em) {
     .footer .menufooter .social{
         
-        gap: 100px;
+        
     }
     .main .product .product-it .content >button{
         font-size: 20px;
        
     }
-    .footer .menufooter .social >button{
-        font-size: 20px;
-    }
+ 
+    .container .footer .menufooter .social .ba > img {
+        
+        margin: 10px;
+         
+      }
     .product .product-it{
   
         background-color: #f1f1f1;
@@ -20,7 +23,7 @@
       
       }
 }
-@media screen and (min-width:75em) {
+@media screen and (max-width:1200px) {
     .product .product-it{
   
         background-color: #f1f1f1;
@@ -29,5 +32,10 @@
         gap:20px;
         border: solid 20px  rgb(254, 245, 254);
       
+      }
+      .container .footer .menufooter .social .ba > img {
+        
+        margin: 15px;
+         
       }
 }

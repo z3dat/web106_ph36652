@@ -1,0 +1,29 @@
+.header .top-nav a img{
+    width: 40%;
+   }
+   *{
+    box-sizing: border-box;
+}
+.footer .menufooter .social .hnam h5{
+    margin-top: 40px;
+}
+.card{
+    margin: 10px;
+}
+.col-md-6 img{
+    border: solid 2px black;
+}
+.card-body .card-title{
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.form-row{
+    margin: 10px 0px;
+}
+.card button{
+    background-color: orange;
+    margin: 10px 0px;
+}
+@media screen and (min-width:480px) {
+   
+}
