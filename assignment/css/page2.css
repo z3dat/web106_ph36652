@@ -7,23 +7,55 @@
 .footer .menufooter .social .hnam h5{
     margin-top: 40px;
 }
-.card{
-    margin: 10px;
+.main {
+    display: flex;
+    flex-direction: column ;
+    margin: 20px;
 }
-.col-md-6 img{
-    border: solid 2px black;
+.main .productt {
+    width: 100%;
+    
 }
-.card-body .card-title{
-    font-weight: 700;
-    margin: 10px 0px;
+.main .productt .productt-it{
+   display: flex;
+   gap: 20px;
+   margin: 20px;
 }
-.form-row{
-    margin: 10px 0px;
+.main .productt .productt-it .ittem{
+    width: 30%;
 }
-.card button{
+.main .productt .productt-it .ittem img{
+    width: 100%;
+}
+.main .productt .productt-it .content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.main .productt .productt-it .content .input{
+    display: flex;
+}
+.main .productt .productt-it .content .input input{
+    width: 50%;
+}
+button{
     background-color: orange;
-    margin: 10px 0px;
+    color: white;
 }
-@media screen and (min-width:480px) {
-   
+@media screen and (min-width:768px) {
+    .main .productt{
+        display: flex;
+    }
+    .main .productt .productt-it{
+        width: 50%;
+    }
+}
+@media screen and (min-width:1200px) {
+    .main .productt{
+        display: flex;
+    }
+    .main .productt .productt-it{
+        width: 50%;
+    }
 }
